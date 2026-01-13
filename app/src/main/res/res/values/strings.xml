@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أنجز</string>
+    <string name="add_task">إضافة مهمة</string>
+    <string name="edit_task">تعديل المهمة</string>
+    <string name="task_title">عنوان المهمة</string>
+    <string name="task_description">وصف المهمة</string>
+    <string name="priority">الأولوية</string>
+    <string name="due_date">تاريخ الاستحقاق</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="all_tasks">جميع المهام</string>
+    <string name="completed">المنجزة</string>
+    <string name="in_progress">قيد التنفيذ</string>
+    <string name="high_priority">عالية الأولوية</string>
+    <string name="overdue">المتأخرة</string>
+    <string name="search">بحث</string>
+    <string name="settings">الإعدادات</string>
+    <string name="no_tasks">لا توجد مهام لعرضها</string>
+    <string name="total_tasks">إجمالي المهام</string>
+    <string name="tasks_completed">المهام المنجزة</string>
+    <string name="tasks_in_progress">المهام قيد التنفيذ</string>
+    <string name="tasks_overdue">المهام المتأخرة</string>
+    <string name="app_lock">قفل التطبيق</string>
+    <string name="dark_mode">الوضع الليلي</string>
+    <string name="export_data">تصدير البيانات</string>
+    <string name="import_data">استيراد البيانات</string>
+    <string name="about">حول التطبيق</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="version">الإصدار 1.0.0</string>
+</resources>
