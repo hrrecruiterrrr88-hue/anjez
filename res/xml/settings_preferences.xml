@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <PreferenceCategory android:title="الأمان">
+        <SwitchPreferenceCompat
+            android:key="app_lock"
+            android:title="قفل التطبيق"
+            android:summary="استخدم البصمة أو PIN لقفل التطبيق"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="المظهر">
+        <ListPreference
+            android:key="dark_mode"
+            android:title="الوضع الليلي"
+            android:summary="تغيير مظهر التطبيق"
+            android:entries="@array/dark_mode_entries"
+            android:entryValues="@array/dark_mode_values"
+            android:defaultValue="auto" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="البيانات">
+        <Preference
+            android:key="export_data"
+            android:title="تصدير البيانات"
+            android:summary="حفظ نسخة احتياطية من المهام" />
+            
+        <Preference
+            android:key="import_data"
+            android:title="استيراد البيانات"
+            android:summary="استعادة المهام من نسخة احتياطية" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="حول">
+        <Preference
+            android:key="about"
+            android:title="حول التطبيق"
+            android:summary="معلومات عن تطبيق أنجز" />
+            
+        <Preference
+            android:key="privacy_policy"
+            android:title="سياسة الخصوصية"
+            android:summary="كيف نحمي بياناتك" />
+            
+        <Preference
+            android:key="version"
+            android:title="الإصدار"
+            android:summary="1.0.0"
+            android:enabled="false" />
+    </PreferenceCategory>
+    
+</PreferenceScreen>
